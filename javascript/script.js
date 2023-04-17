@@ -4,6 +4,8 @@ function validar(){
     
     if(usuario == "" && senha == ""){
         alert("Preencha todos os campos para prosseguir.")
+    }else if(usuario == "" || senha == ""){
+        alert("Preencha todos os campos para prosseguir.")
     }else{
         alert("Acesso permitido.")
         window.open("menu.html")
